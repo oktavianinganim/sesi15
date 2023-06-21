@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan jQUERY 01</title>
+    <script src="jquery-3.7.0.min.js"></script>
+</head>
+<body>
+
+    
+    <h3>Judul</h3>
+    <div id="pesan">Isi pesan</div>
+    <div class="pesan">Isi pesan</div>
+
+    <h4>JENIS NOVEL</h4>
+    <div id="Novel">Jenis Novel</div>
+    <div class="Novel">Jenis Novel"</div>
+
+
+    <script src="jquery-3.7.0.min.js"></script>
+    <script>
+        //document.getElementById().innerHTML = "dsdd";
+        $(function(){
+            $("#pesan").html("Isi yang baru");
+            $(".pesan").html("Isi Class yang Baru");
+            $("h3").html("Belajar Jquery")
+            $("#Novel").html("Novel horor");
+            $("Novel").html("Novel cerita Rakyat");
+            $("h4").html("Mengenal Jenis Novel");
+
+    
+        });
+    </script>
+</body>
+</html>
